@@ -9,9 +9,11 @@ const Products = () => {
       <h2>Products</h2>
       <input type="search" placeholder="Search products" />
       <nav>
-        <NavLink to={"/products/featured"} className={isActive}>
+        {/* relative link */}
+        <NavLink to={"featured"} className={isActive}>
           featured
         </NavLink>
+        {/* absolute link */}
         <NavLink to={"/products/new"} className={isActive}>
           new
         </NavLink>
