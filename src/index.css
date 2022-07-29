@@ -12,16 +12,19 @@ code {
     monospace;
 }
 
-nav {
+.navbar {
   background-color: aliceblue;
   padding: 16px 32px;
 }
 
+.navbar a {
+  margin-right: 32px;
+}
 nav a {
   margin-right: 32px;
 }
 
-/* nav a.active {
+nav a.active {
   text-decoration: none;
   font-weight: bold;
-} */
+}
